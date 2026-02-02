@@ -2,8 +2,7 @@ from pydantic import BaseModel
 
 class UserBase(BaseModel):
     username: str
-    foo: int
-    bar: int
+    email: str
 
 class UserCreate(UserBase):
     pass
